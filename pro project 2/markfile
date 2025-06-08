@@ -1,0 +1,9 @@
+install:
+	python -m venv venv
+	. venv/bin/activate && pip install -r requirements.txt
+
+test:
+	. venv/bin/activate && pytest tests/
+
+run:
+	. venv/bin/activate && python -m file_reader.reader

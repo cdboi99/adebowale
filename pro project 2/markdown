@@ -1,0 +1,13 @@
+file_reader_project/
+├── file_reader/
+│   ├── __init__.py
+│   ├── reader.py
+│   ├── utils.py
+├── tests/
+│   ├── test_reader.py
+├── requirements.txt
+├── Makefile
+├── README.md
+└── .github/
+    └── workflows/
+        └── python-app.yml
